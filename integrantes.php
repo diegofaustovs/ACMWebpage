@@ -14,27 +14,30 @@
 ?>
 
 <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
-<script src="//frontend.reklamor.com/fancybox/jquery.fancybox.js"></script>
+<script src="./js/fancybox.js"></script>
 
 <div class="container">
 	<div class="row">
-		<div class='list-group gallery'>
+		<!--<div class='list-group gallery'>-->
 
 		<?php
 			for ($i=0; $i < count($integrantes); $i++) 
 			{ 
-				echo '<div class="col-sm-4 col-xs-6 col-md-3 col-lg-3">
-                <a class="thumbnail fancybox" rel="ligthbox" href="">
-                    <img class="img-responsive" alt="" src="'.$integrantes[$i][2].'" />
-                    <div class="text-right">
-                        <small class="text-muted">'.$integrantes[$i][0].'</small>
-                    </div>
-                </a>
-            </div> <!-- col-6 / end -->';
+//				echo '<div class="col-sm-4 col-xs-6 col-md-3 col-lg-3">
+//                <a class="thumbnail fancybox" rel="ligthbox" href="'.$integrantes[$i][2].'">
+//                    <img class="img-responsive" alt="" src="'.$integrantes[$i][2].'" />
+//                    <div class="text-right">
+//                        <small class="text-muted">'.$integrantes[$i][0].'</small>
+//                    </div>
+//                </a>
+//            </div> <!-- col-6 / end -->';
+
+            	echo '<div class="col-md-3 col-sm-4 col-xs-6"><div class="thumbnail cust"><img class="img-responsive imgCarousel" src="'.$integrantes[$i][2].'"/><div class="caption cust">'.$integrantes[$i][0].'</div></div></div>';
 			}
+
         ?>
 
-        </div> <!-- list-group / end -->
+        <!--</div> -->
 	</div> <!-- row / end -->
 </div> <!-- container / end -->
 
