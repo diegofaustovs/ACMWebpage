@@ -2,6 +2,8 @@
 <html lang="sp">
 
 <head>
+
+  <link rel="icon" type="image/png" href="./img/favicon.png">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap-theme.min.css" type="text/css">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/customStyles.css" type="text/css">
@@ -19,7 +21,7 @@
 ?>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top cust" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -28,7 +30,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo $index; ?>">ACM Uniandes</a>
+        <a class="navbar-brand" href="<?php echo $index; ?>"><img  class="navLogo" src="./img/favicon.png"></a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">

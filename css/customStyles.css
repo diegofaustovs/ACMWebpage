@@ -8,3 +8,11 @@
 p {
 	text-align: justify;
 }
+
+.navbar.navbar-default.navbar-fixed-top.cust {
+	background: rgba(206,206,206,0.7);
+}
+
+.navLogo{
+	height: 5em;
+}

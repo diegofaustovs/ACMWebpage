@@ -1,18 +1,6 @@
 <?php
 
-// function ellipse($str,$n_chars,$projNumber)
-// {
-// 	$crop_str=' <a href="projects/project.php?id='.$projNumber.'"> [...] </a>';
-// 	$buff=strip_tags($str);
-// 	if(strlen($buff) > $n_chars)
-// 	{
-// 		$cut_index=strpos($buff,' ',$n_chars);
-// 		$buff=substr($buff,0,($cut_index===false? $n_chars: $cut_index+1)).$crop_str;
-// 	}
-// 	return $buff;
-// }
-
-$picture = '<img src="../img/clasifiteca.png" class="imag img-thumbnail"><br><br>';
+$picture = '<img src="./img/clasifiteca.png" class="imag img-thumbnail"><br><br>';
 
 $descr = '<a title="ClasifiTeca" href="http://clasificados.uniandes.edu.co" target="_blank">ClasifiTeca</a> es una iniciativa estudiantil que surgi&oacute; dentro del <a title="Startup Criollo" href="http://acm.uniandes.edu.co/startupcriollo">Startup Criollo</a>, un evento del Cap&iacute;tulo ACM. El proyecto surgi&oacute; con la motivaci&oacute;n de resolver un problema constante en la Universidad: encontrar libros para las clases. Se pretend&iacute;a resolver el problema a trav&eacute;s de una plataforma en la que fuera f&aacute;cil intercambiar libros usados o comprar y vender libros.<br><br>
 
@@ -46,8 +34,8 @@ if (isset($pageTitle))
 
 	else
 	{
-
-		echo '<p>'.$picture.$descr.'</p>';
+		$projectPic = '<img src="../img/clasifiteca.png" class="imag img-thumbnail"><br><br>';
+		echo '<p>'.$projectPic.$descr.'</p>';
 	}
 }
 

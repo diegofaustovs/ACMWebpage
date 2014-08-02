@@ -2,7 +2,7 @@
 
 function ellipse($str,$n_chars,$projNumber)
 {
-	$crop_str=' <a href="projects/project.php?id='.$projNumber.'"> [...] </a>';
+	$crop_str=' <a href="projects/project.php?id='.$projNumber.'"> [Read More ...] </a>';
 	$buff=strip_tags($str);
 	if(strlen($buff) > $n_chars)
 	{
@@ -12,7 +12,7 @@ function ellipse($str,$n_chars,$projNumber)
 	return $buff;
 }
 
-$picture = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
+$picture = '<img src="./img/bootcamps.png" class="imag img-thumbnail"><br><br>';
 
 $descr = "El proyecto bootcamps nace a trav&eacute;s de el inter&eacute;s propio de los estudiantes por aprender instrumentos de tecnolog&iacute;as que no alcanzan a ofrecerse en el espacio acad&eacute;mico, pero que son de gran utilidad para la el desarrollo del mundo actual.
 
@@ -32,8 +32,8 @@ if (isset($pageTitle))
 
 	else
 	{
-
-		echo '<p>'.$picture.$descr.'</p>';
+		$projectPic = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
+		echo '<p>'.$projectPic.$descr.'</p>';
 	}
 }
 
