@@ -12,13 +12,11 @@
 
 	$pageTitle = $array [$id].' - ';
 
-	$css = './';
+	$proyectos = './proyectos.php';
+	$index = './index.php';
 
-	$proyectos = '../proyectos.php';
-	$index = '../index.php';
-
-	include '../include/header.php';
+	include './include/header.php';
 	include $id.'.php';
-	include '../include/footer.php';
+	include './include/footer.php';
 
 ?>

@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "";
-include "include/header.php"; ?>
+require_once("include/header.php"); ?>
 
 <div>
 	Welcome to ACM Uniandes

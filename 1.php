@@ -2,7 +2,7 @@
 
 function ellipse($str,$n_chars,$projNumber)
 {
-	$crop_str=' <a href="projects/project.php?id='.$projNumber.'"> [Read More ...] </a>';
+	$crop_str=' <a href="project.php?id='.$projNumber.'"> [Read More ...] </a>';
 	$buff=strip_tags($str);
 	if(strlen($buff) > $n_chars)
 	{
@@ -32,8 +32,8 @@ if (isset($pageTitle))
 
 	else
 	{
-		$projectPic = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
-		echo '<p>'.$projectPic.$descr.'</p>';
+		//$projectPic = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
+		echo '<p>'.$picture.$descr.'</p>';
 	}
 }
 

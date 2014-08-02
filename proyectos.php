@@ -1,9 +1,8 @@
 <?php 
 $pageTitle = "Proyectos - ";
 include "include/header.php"; ?>  
-<link rel="stylesheet" type="text/css" href="css/customStyles.css">
   <div class="container">
-  <link rel="stylesheet" type="text/css" href="css/bootsnipp.timeline.css">
+  <link rel="stylesheet" type="text/css" href="css/bootsnipp.timeline.css"> <!-- Includes Timeline Script -->
     <ul class="timeline">
         <li>
           <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
@@ -12,7 +11,7 @@ include "include/header.php"; ?>
               <h4 class="timeline-title">Bootcamps &#45; ACM Developers!</h4>
             </div>
             <div class="timeline-body">
-              <p><?php include 'projects/1.php'; ?></p>
+              <p><?php include '1.php'; ?></p>
             </div>
           </div>
         </li>
@@ -23,7 +22,7 @@ include "include/header.php"; ?>
               <h4 class="timeline-title">ClasifiTeca! Clasificados Uniandes!</h4>
             </div>
             <div class="timeline-body">
-              <p><?php include 'projects/2.php'; ?></p>
+              <p><?php include '2.php'; ?></p>
             </div>
           </div>
         </li>

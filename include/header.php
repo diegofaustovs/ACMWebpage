@@ -2,15 +2,19 @@
 <html lang="sp">
 
 <head>
-<?php $favicon = "./img/favicon.png"; ?>
-  <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
-  <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap-theme.min.css" type="text/css">
-  <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/customStyles.css" type="text/css">
+<?php 
+  $favicon = "./img/favicon.png";
+?>
+  <link rel="icon" type="image/png" href="<?php echo $favicon ?>">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/customStyles.css" type="text/css">
   <title> <?php echo $pageTitle."ACM Uniandes"; ?> </title>
 </head>
 
 <?php 
+
+  $cuadroHonor = 'integrantes.php';
   
   if ( !isset($index) && !isset($proyectos))
   {
@@ -35,7 +39,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="<?php echo $proyectos; ?>">Proyectos</a></li>
-          <li><a href="#">Link</a></li>
+          <li><a href="<?php echo $cuadroHonor; ?>">Cuadro de Honor</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu">

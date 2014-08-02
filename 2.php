@@ -34,8 +34,7 @@ if (isset($pageTitle))
 
 	else
 	{
-		$projectPic = '<img src="../img/clasifiteca.png" class="imag img-thumbnail"><br><br>';
-		echo '<p>'.$projectPic.$descr.'</p>';
+		echo '<p>'.$picture.$descr.'</p>';
 	}
 }
 
