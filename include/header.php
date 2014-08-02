@@ -2,8 +2,8 @@
 <html lang="sp">
 
 <head>
-
-  <link rel="icon" type="image/png" href="./img/favicon.png">
+<?php $favicon = "./img/favicon.png"; ?>
+  <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap-theme.min.css" type="text/css">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="<?php if (isset($css)){echo $css;} ?>css/customStyles.css" type="text/css">
