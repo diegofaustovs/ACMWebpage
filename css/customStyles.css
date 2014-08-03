@@ -40,7 +40,8 @@ img:hover {
 body{
 	background-image: url(https://scontent-b.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1529802_10152135556148160_8934302256705328155_o.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
+	background-attachment: fixed;
 }
 
 .thumbnail.cust{

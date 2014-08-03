@@ -17,7 +17,7 @@ if (isset($pageTitle))
 {
 	if ($pageTitle == "Proyectos - " )
 	{
-		echo $picture.ellipse($descr, 500, '1');
+		echo $picture.ellipse($descr, 500, '2');
 	}
 
 	else
