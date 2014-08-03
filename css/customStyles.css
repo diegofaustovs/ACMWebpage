@@ -13,8 +13,13 @@ p {
 	background: rgba(206,206,206,0.7);
 }
 
+.navbar-brand.cust{
+	padding-top: 0;
+}
+
 .navLogo{
-	height: 5em;
+	margin-top: 0;
+	height: 2.8em;
 }
 
 .imgCarousel {
@@ -33,7 +38,7 @@ img:hover {
 }
 
 body{
-	background-image: url(http://www.greatwinecapitals.com/sites/default/files/duomo_and__palazzo_vecchio_by_saross89-d3b42eh.jpg);
+	background-image: url(http://www.layoverguide.com/wp-content/uploads/2012/05/Eiffel-Tower-in-Paris-France.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
