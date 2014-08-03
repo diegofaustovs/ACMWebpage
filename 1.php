@@ -32,8 +32,8 @@ if (isset($pageTitle))
 
 	else
 	{
-		//$projectPic = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
-		echo '<p>'.$picture.'<div class="jumbotron cust">'.$descr.'</div></p>';
+		$button = '<div class="col-md-10 col-sm-6 col-xs-8""></div><div>  <button type="button" class="btn btn-default cust" onclick="goBack()"><img src="https://www.cloudcovermusic.com/img/left_arrow2.png" style="height:1.5em;"> Go Back</img></button></div>';
+		echo '<p>'.$picture.'<div class="jumbotron cust">'.$descr.'<br><br>'.$button.'</div></p>';
 	}
 }
 

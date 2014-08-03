@@ -24,6 +24,12 @@
   
 ?>
 
+<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+
 <body>
   <nav class="navbar navbar-default navbar-fixed-top cust" role="navigation">
     <div class="container-fluid">

@@ -38,7 +38,7 @@ img:hover {
 }
 
 body{
-	background-image: url(http://www.layoverguide.com/wp-content/uploads/2012/05/Eiffel-Tower-in-Paris-France.jpg);
+	background-image: url(../img/MLUniandes.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -55,4 +55,10 @@ body{
 	background: rgba(34,34,34,0.90);
 	text-align: justify;
 	color: rgb(185,185,185);
+}
+
+.btn.btn-default.cust{
+	background-color: rgba(255, 255, 255, 0);
+	border-color:rgba(204, 204, 204, 0.11);
+	color: slategray;
 }
