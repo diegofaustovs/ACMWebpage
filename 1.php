@@ -33,7 +33,7 @@ if (isset($pageTitle))
 	else
 	{
 		//$projectPic = '<img src="../img/bootcamps.png" class="imag img-thumbnail"><br><br>';
-		echo '<p>'.$picture.$descr.'</p>';
+		echo '<p>'.$picture.'<div class="jumbotron cust">'.$descr.'</div></p>';
 	}
 }
 

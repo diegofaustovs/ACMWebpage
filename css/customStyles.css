@@ -45,3 +45,9 @@ body{
 .caption.cust{
 	color: #A5A3A3;
 }
+
+.jumbotron.cust{
+	background: rgba(34,34,34,0.90);
+	text-align: justify;
+	color: rgb(185,185,185);
+}
