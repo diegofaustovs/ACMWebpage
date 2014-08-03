@@ -2,10 +2,10 @@
 
 	$array = [
 
-	1 => "Bootcamps",
-	2 => "ClasifiTeca",
-	3 => "",
-
+	"HorarioLab",
+	"ClasifiTeca",
+	"Bootcamps",
+	
 	];
 
 	$id = $_GET["id"];
@@ -16,7 +16,7 @@
 	$index = './index.php';
 
 	include './include/header.php';
-	include $id.'.php';
+	include './proyectos/'.$id.'.php';
 	include './include/footer.php';
 
 ?>
