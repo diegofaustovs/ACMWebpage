@@ -4,7 +4,7 @@ include "include/header.php";
 
 function ellipse($str,$n_chars,$projNumber)
 {
-  $crop_str=' <a href="project.php?id='.$projNumber.'"> [Read More ...] </a>';
+  $crop_str=' <a href="activity.php?id='.$projNumber.'"> [Read More ...] </a>';
   $buff=strip_tags($str);
   if(strlen($buff) > $n_chars)
   {

@@ -2,18 +2,18 @@
 
 $picture = '<img src="./actividades/0/0.jpg" class="imag img-thumbnail"><br><br>';
 
-$descr = '<p>Nuestro primer hackathon oficial fue todo un éxito! Fue una sesión llena de pizza, cerveza, mucho código y mucha actitud! Más de 20 personas escribieron código durante todo un día en más de 6 proyectos proyectos geniales!</p>
-<p>El objetivo del hackathon fue aprender mas sobre tecnologías novedosas de desarrollo web y móvil, y obtener experiencia trabajando en proyectos fuera del alcance de las clases de la Universidad, y sobre todo pasarala bueno haciendo lo que nos gusta: escribiendo código! El objetivo fue cumplido y nos estrellamos con diferentes tecnologías como Ruby on Rails, Django, jQuery, Git/Github entre muchas otras!</p>
-<p>Los proyectos trabajdos durante la sesión fueron:</p><br>
+$descr = 'Nuestro primer hackathon oficial fue todo un &eacute;xito! Fue una sesi&oacute;n llena de pizza, cerveza, mucho c&oacute;digo y mucha actitud! M&aacute;s de 20 personas escribieron c&oacute;digo durante todo un d&iacute;a en m&aacute;s de 6 proyectos proyectos geniales!<br>
+El objetivo del hackathon fue aprender mas sobre tecnolog&iacute;as novedosas de desarrollo web y m&oacute;vil, y obtener experiencia trabajando en proyectos fuera del alcance de las clases de la Universidad, y sobre todo pasarala bueno haciendo lo que nos gusta: escribiendo c&oacute;digo! El objetivo fue cumplido y nos estrellamos con diferentes tecnolog&iacute;as como Ruby on Rails, Django, jQuery, Git/Github entre muchas otras!<br>
+Los proyectos trabajdos durante la sesi&oacute;n fueron:<br>
 <ul>
 <li>CVim</li>
 <li>Bluefoot</li>
 <li>Dexterior</li>
 <li>GET</li>
 <li>Portal Viaje</li>
-<li>Bazar Móvil</li>
+<li>Bazar M&oacute;vil</li>
 </ul><br>
-<p>Esperamos realizar muchos hackathons más, más grandes y mejores, y aprender mucho de éstas experiencias!</p>';
+Esperamos realizar muchos hackathons m&aacute;s, m&aacute;s grandes y mejores, y aprender mucho de &eacute;stas experiencias!';
 
 if (isset($pageTitle))
 {
