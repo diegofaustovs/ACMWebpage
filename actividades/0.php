@@ -13,7 +13,14 @@ Los proyectos trabajdos durante la sesi&oacute;n fueron:<br>
 <li>Portal Viaje</li>
 <li>Bazar M&oacute;vil</li>
 </ul><br>
-Esperamos realizar muchos hackathons m&aacute;s, m&aacute;s grandes y mejores, y aprender mucho de &eacute;stas experiencias!';
+Esperamos realizar muchos hackathons m&aacute;s, m&aacute;s grandes y mejores, y aprender mucho de &eacute;stas experiencias!<br>';
+
+$photos = "";
+for ($i=1; $i < 11; $i++) { 
+	$photos = $photos.'<img src="./actividades/0/'.$i.'.jpg" class="imag img-thumbnail"><br>';
+}
+
+$imagenes = 11;
 
 if (isset($pageTitle))
 {
@@ -25,9 +32,8 @@ if (isset($pageTitle))
 	else
 	{
 		$button = '<div class="col-md-10 col-sm-6 col-xs-8""></div><div>  <button type="button" class="btn btn-default cust" onclick="goBack()"><img src="https://www.cloudcovermusic.com/img/left_arrow2.png" style="height:1.5em;"> Go Back</img></button></div>';
-		echo '<p>'.$picture.'<div class="jumbotron cust">'.$descr.'<br><br>'.$button.'</div></p>';
+		echo '<p>'.$picture.'<div class="jumbotron cust">'.$descr.'<br>';
+		include 'carousel.php';
+		echo '<br><br>'.$button.'</div></p>';
 	}
 }
-
-
-?>
