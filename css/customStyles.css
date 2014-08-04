@@ -63,3 +63,30 @@ body{
 	border-color:rgba(204, 204, 204, 0.11);
 	color: slategray;
 }
+
+#footer-links > div{
+	text-align: center;
+	background: rgba(34,34,34,0.95);
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+
+#footer-links > div > a {
+	text-shadow: rgba(255, 255, 255, 0.247059) 0px 0px 10px;
+	color: rgb(255,255,255);
+}
+
+#footer-copy > div{
+	background: rgba(255,255,255,0.90);
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+
+#footer-copy > div > a{
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+
+#copy > p{
+	padding-top: 0.5em;
+}
