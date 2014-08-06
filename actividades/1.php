@@ -3,7 +3,7 @@
 $picture = '<img src="./actividades/1/0.png" class="imag img-thumbnail"><br><br>';
 
 $descr = 'Avanzando desde nuestro primer y exitoso <a title="Startup Criollo" href="http://acm.uniandes.edu.co/startupcriollo" target="_blank">Startup Criollo</a>, ¡Llega el primer Startup Weekend Universitario a Colombia gracias a ACM Uniandes.<br><br>
-Del 26 al 28 de abril, se realizará el primer SW en la Universidad de los Andes enfocado hacia estudiantes: un intenso contrarreloj de 54 horas lleno de innovación y creatividad en el que amantes de la tecnología, geeks, diseñadores y gente de negocios se reúnen en equipos alrededor de ideas innovadoras de tecnología y las convierten en empresas en internet!';
+Del 26 al 28 de abril, se realizar&aacute; el primer SW en la Universidad de los Andes enfocado hacia estudiantes: un intenso contrarreloj de 54 horas lleno de innovaci&oacute;n y creatividad en el que amantes de la tecnolog&iacute;a, geeks, diseñadores y gente de negocios se re&uacute;nen en equipos alrededor de ideas innovadoras de tecnolog&iacute;a y las convierten en empresas en internet!';
 
 if (isset($pageTitle))
 {
