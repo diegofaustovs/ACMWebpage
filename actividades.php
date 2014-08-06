@@ -16,6 +16,7 @@ function ellipse($str,$n_chars,$projNumber)
 
 $nombreActividades = [
   "Hack@Tejas Hackaton",
+  "Startup Weekend Uniandes!",
 ];
 
  ?>  
@@ -40,13 +41,17 @@ $nombreActividades = [
           </div>
         </li>";
 
-        for ($i = (count($nombreActividades)-1); $i >= 0; $i--) 
+        $i = count($nombreActividades) - 1;
+
+        while ($i >= 0)
         { 
           echo $preTitle;
           echo $nombreActividades[$i];
           echo $preInclude;
           include './actividades/'.$i.'.php';
           echo $postInclude;
+          // echo "<h1>".$i."<h1>";
+          $i = $i - 1;
         };
         
       ?>

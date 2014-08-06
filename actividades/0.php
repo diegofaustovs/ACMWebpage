@@ -15,10 +15,10 @@ Los proyectos trabajdos durante la sesi&oacute;n fueron:<br>
 </ul><br>
 Esperamos realizar muchos hackathons m&aacute;s, m&aacute;s grandes y mejores, y aprender mucho de &eacute;stas experiencias!<br>';
 
-$photos = "";
-for ($i=1; $i < 11; $i++) { 
-	$photos = $photos.'<img src="./actividades/0/'.$i.'.jpg" class="imag img-thumbnail"><br>';
-}
+// $photos = "";
+// for ($i=1; $i < 11; $i++) { 
+// 	$photos = $photos.'<img src="./actividades/0/'.$i.'.jpg" class="imag img-thumbnail"><br>';
+// }
 
 $imagenes = 11;
 

@@ -3,6 +3,7 @@
 	$array = [
 
 	"Hack@Tejas Hackaton",
+	"Startup Weekend Uniandes!"
 	
 	];
 
