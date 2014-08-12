@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/customStyles.css" type="text/css">
+  <link rel="stylesheet" href="css/popup-contact.css" type="text/css">
   <title> <?php echo $pageTitle."ACM Uniandes"; ?> </title>
 </head>
 
@@ -21,7 +22,7 @@
   {
     $index = 'index.php';
     $proyectos = 'proyectos.php';  
-  }
+  };
   
 ?>
 
@@ -48,6 +49,7 @@ function goBack() {
           <li><a href="<?php echo $proyectos; ?>">Proyectos</a></li>
           <li><a href="<?php echo $actividades; ?>">Actividades</a></li>
           <li><a href="<?php echo $cuadroHonor; ?>">Cuadro de Honor</a></li>
+          
         </ul>
       </div>
     </nav>
