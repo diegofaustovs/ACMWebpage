@@ -8,8 +8,8 @@
   <link rel="icon" type="image/png" href="<?php echo $favicon ?>">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootsnipp.timeline.css" type="text/css">
   <link rel="stylesheet" href="css/customStyles.css" type="text/css">
-  <link rel="stylesheet" href="css/popup-contact.css" type="text/css">
   <title> <?php echo $pageTitle."ACM Uniandes"; ?> </title>
 </head>
 

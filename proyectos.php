@@ -22,7 +22,7 @@ $nombreProyectos = [
 
  ?>  
   <div class="container">
-  <link rel="stylesheet" type="text/css" href="css/bootsnipp.timeline.css"> <!-- Includes Timeline Script -->
+<!-- Includes Timeline Script -->
     <ul class="timeline">
 
       <?php
