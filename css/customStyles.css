@@ -10,7 +10,7 @@ p {
 }
 
 .navbar.navbar-default.navbar-fixed-top.cust {
-	background: rgba(206,206,206,0.7);
+	background: rgba(206,206,206,0.99);
 }
 
 .navbar-brand.cust{
@@ -38,7 +38,7 @@ img:hover {
 }
 
 body{
-	background-image: url(https://scontent-b.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1529802_10152135556148160_8934302256705328155_o.jpg);
+	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-attachment: fixed;
